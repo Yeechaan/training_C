@@ -16,7 +16,6 @@ int main() {
 	printf("Which term of value do you want to know? ");
 	scanf("%d", &numberOfTerm);
 
-	//1. When the term is less than 50, do the looping.
 	while (term <= numberOfTerm) {
 		nextNumber = firstNumber + secondNumber;
 		firstNumber = secondNumber;
